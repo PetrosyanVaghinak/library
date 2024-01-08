@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <header>
+
       <div className="logo">
         <img src={logo} alt="" srcset="" />
       </div>

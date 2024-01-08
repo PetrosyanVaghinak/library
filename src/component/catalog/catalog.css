@@ -1,0 +1,75 @@
+.catalogContiner {
+  margin: 5%;
+  display: flex;
+}
+
+.catalogContiner .search {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.catalogContiner .search button {
+  width: 60px;
+  height: 21px;
+}
+
+.catalogContiner .left .filterOption {
+  margin-top: 5%;
+
+  
+}
+.filterOption a {
+  margin-top: 2%;
+  display: block;
+}
+
+.button {
+  margin-top: 5%;
+  font-size: 16px;
+}
+
+
+.catalogContiner .books-box {
+    width: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.catalogContiner .books-box .boxNew a img {
+  width: 80%;
+  height: 150px;
+  object-fit: contain;
+  margin: 5% 10px;
+}
+.catalogContiner .books-box .boxNew h3 {
+  margin-left: 20%;
+}
+
+.catalogContiner .books-box .boxNew p {
+  margin-left: 20%;
+}
+.catalogContiner .books-box .boxNew {
+  width: 140px;
+  height: 240px;
+  overflow: hidden;
+  background-color: #55d2db;
+  border-radius: 20px;
+  margin: 30px;
+}
+.catalogContiner .left{
+    margin-right: 30%;
+}
+
+
+.catalogContiner .right .button2{
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  
+    
+}

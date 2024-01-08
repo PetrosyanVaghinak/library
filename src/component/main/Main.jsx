@@ -3,7 +3,7 @@ import "./main.css";
 import book1 from "../../img/1.jpg";
 import book2 from "../../img/2.jpg";
 import book3 from "../../img/3.png";
-import Slider from "./Slider"
+import Slider from "./Slider";
 
 export default function Main() {
   return (
@@ -39,7 +39,7 @@ export default function Main() {
         <button>View All</button>
       </a>
       <h3>Recat Addition</h3>
-      <Slider/>
+      <Slider />
     </div>
   );
 }

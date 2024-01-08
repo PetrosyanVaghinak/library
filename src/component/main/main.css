@@ -1,6 +1,12 @@
 .main-container {
   margin: -1rem 5%;
+  background: url("../../img/Free-Images-Book-Wallpapers-HD.jpg.crdownload");
+  background-size: cover;
+ 
+  
+
 }
+  
 .main-container .book-box {
   display: flex;
   align-items: center;

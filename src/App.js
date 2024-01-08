@@ -4,7 +4,11 @@ import Main from "./component/main/Main.jsx";
 import Footer from "./component/Footer/Footer.jsx";
 import { Routes, Route } from "react-router-dom";
 import Catalog from "./component/catalog/Catalog.jsx";
-import Login from "./component/login/Login.jsx"
+import Login  from "./component/login/Login.jsx";
+import Registers from "./component/registers/Registers.jsx";
+
+
+
 
 function App() {
   return (
@@ -15,6 +19,7 @@ function App() {
         <Route path="/" element={<Main/>}/>
         <Route path="/catalog" element={<Catalog/>} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/registers" element={<Registers/>} />
         <Route />
       </Routes>
       <Footer />
