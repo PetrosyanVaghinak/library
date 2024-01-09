@@ -3,7 +3,7 @@ const Book = require('../models/book.js')
 const BookService = {
    
     async getAllBooks() {
-        return Book.find({}).lean()
+        return await Book.find({}).lean()
     },
     
 

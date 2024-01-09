@@ -1,6 +1,6 @@
 .main-container {
   margin: -1rem 5%;
-  background: url("../../img/Free-Images-Book-Wallpapers-HD.jpg.crdownload");
+  background: url("../../img/bg.jpg");
   background-size: cover;
  
   
@@ -8,9 +8,9 @@
 }
   
 .main-container .book-box {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Adjust the gap between books */
 }
 .main-container h1 {
   text-align: center;
@@ -40,18 +40,16 @@
   text-align: center;
 }
 
-.main-container .main-button {
-  display: block;
-  text-align: center;
-  margin: 15px;
-}
 
-.main-container a button {
+
+.view-all a  {
+  display: flex;
+  margin: 20px 46.5%;
   padding: 12px 10px 3px;
   font-size: 16px;
-  text-decoration: underline;
   background-color: white;
   border: 1px solid;
+  text-align: center;
 }
 
 .main-container h3 {

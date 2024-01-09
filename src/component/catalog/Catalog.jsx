@@ -83,9 +83,8 @@ export default function Catalog() {
         </div>
         
       </div>
-      <div className="button2">
-            <button>Load More</button>
-            </div>
+      <button >Load More</button>
+
 </div>
  
     </div>
