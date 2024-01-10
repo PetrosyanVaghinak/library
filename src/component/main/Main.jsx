@@ -23,6 +23,7 @@ export default  function Main() {
                 return response.json()
             })
             .then((books) => {
+              
                 setBooks(books);
             }).catch((e) => {
                 console.log(e)
@@ -43,6 +44,7 @@ export default  function Main() {
         return (<div className="box">
           <a>
             <img src={book} />
+           
           </a>
         <p className="title">{book.title}</p>
         <p className="author">{book.authors}</p>

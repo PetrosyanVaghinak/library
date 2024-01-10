@@ -45,12 +45,14 @@
   object-fit: contain;
   margin: 5% 10px;
 }
-.catalogContiner .books-box .boxNew h3 {
-  margin-left: 20%;
+.catalogContiner .books-box .boxNew h5 {
+ 
+  margin: 2%;
 }
 
 .catalogContiner .books-box .boxNew p {
-  margin-left: 20%;
+  
+  margin-left: 2%;
 }
 .catalogContiner .books-box .boxNew {
   width: 140px;
@@ -64,3 +66,12 @@
     margin-right: 30%;
 }
 
+
+.catalogContiner .right .button-load button {
+  display: flex;
+  margin: 0 240px;
+  padding: 8px 11px 3px;
+  font-size: 16px;
+  border: 1px solid;
+  text-align: center;
+}
