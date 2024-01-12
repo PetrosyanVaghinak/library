@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const Book = require("./models/book");
 const app = express();
 const BookController = require("./controllers/booksController");
+const userRouter = require("./routes/users")
 const port = 3003;
 
 
@@ -23,9 +24,9 @@ const cors = require('cors');
 app.use(cors({
 	origin: 'http://localhost:3000',
 	credentials: true
-  }))
+}))
 
-// app.use(express.json());
+app.use(express.json());
 //   app.post('/api/books', async (req, res) => {
 //     try {
 // 		console.log("gfjhtfu",addBook())
@@ -39,6 +40,7 @@ app.use(cors({
 mongoDB();
 
 app.use("/book", BookController);
+app.use("/user", userRouter)
 app.use(express.json());
 
 app.post("/api/books", async (req, res) => {
